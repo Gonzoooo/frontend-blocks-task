@@ -1,0 +1,30 @@
+.header,
+.blocks,
+.buttons {
+    border: 1px solid #000;
+}
+
+.header-visible {
+    display: none;
+}
+
+.blocks {
+    margin: 10px 0;
+}
+
+.block-one {
+    background-color: deepskyblue;
+}
+
+.block-two {
+    border: 1px dotted #000;
+    background-color: red;
+}
+
+.block-two__order {
+    order: -1;
+}
+
+.block-three {
+    background-color: orange;
+}
